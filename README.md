@@ -6,10 +6,11 @@ The metadata of an image refers to the text information pertaining to an image f
 
 ## Types of image metadata
 ### Technical metadata
-Technical metadata is likely to be automatically generated either by a camera or file source. This includes information like file type, file size, camera settings, date created, and uploader credentials.
+Technical metadata is likely to be automatically generated either by a camera or file source. This includes information like file type, file size, camera settings, date created, and uploader credentials. For example, if the image is a photograph taken by a digital camera, the camera typically generates metadata about the camera and the photo's settings, including aperture, resolution, focal length, shutter speed, ISO speed, camera brand and model, date and time when the image was created, and the GPS location where it was created.
 
 ### Descriptive metadata
-Descriptive metadata will be more subjective based on specific needs. Descriptive metadata fields will allow you to input metadata values that include things like image descriptions, keywords, product line or collection, and the photographer’s name. Descriptive metadata will usually be tailored to people who are searching an image library and will use terms most common to those users. 
+It is mostly added manually using special software such as GIMP or Affinity Photo. The individual who creates or manages the image can use the software to add or edit the descriptive metadata. The metadata might include the name of the image creator, keywords specific to the image, captions, titles, comments or other information. Effective descriptive metadata can make it easier to search for images.
 
 ### Administrative metadata
-Administrative metadata is also more subjective based on the information needed to keep images compliant and approved for use. This typically includes rights management information, restrictions on use, licensing rights, and expiration date. 
+Administrative metadata is also more subjective based on the information needed to keep images compliant and approved for use. The metadata might include usage and licensing rights, restrictions on reuse, contact information for the image owner or similar types of information.
+
