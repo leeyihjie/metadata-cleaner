@@ -1,4 +1,5 @@
 # Picture Metadata Remover
+This Python application aims to help you remove your metadata from your images.
 
 ## What is metadata?
 The metadata of an image refers to the text information pertaining to an image file that is embedded into the file or saved to a separate file that is associated with the image file.
