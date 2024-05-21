@@ -14,3 +14,5 @@ It is mostly added manually using special software such as GIMP or Affinity Phot
 ### Administrative metadata
 Administrative metadata is also more subjective based on the information needed to keep images compliant and approved for use. The metadata might include usage and licensing rights, restrictions on reuse, contact information for the image owner or similar types of information.
 
+## Why is removing metadata important?
+Metadata can be misused to know about a person’s location or their identity without their knowledge or consent. Therefore, removing metadata is essential to ensuring your privacy and anonymity online.
