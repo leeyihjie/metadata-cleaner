@@ -3,23 +3,34 @@ from PIL import Image
 import piexif
 import base64
 import os
+import glob
 
 from helper_functions.io_helper import get_project_path
 
 
 # Initialise project folder path
-path = get_project_path()
+projectPath = get_project_path()
 
 # Initialise path for images to be cleaned and de-metafied
-path= os.path.join(path, 'images_to_clean')
+imagePath= os.path.join(projectPath, 'images_to_clean')
 
-print(path)
 
-# def uploadImage():
-    # open method used to open different extension image file 
-    # im = Image.open(r"C:\Users\System-Pc\Desktop\ybear.jpg")  
+def loadImages():
+    imageList = []
+    for image in glob.glob(imagePath + "/*"):
+        print(image)
+        imageList.append(image)
+    print(imageList)    
+    return imageList
 
+def cleanImages(listToClean):
+     for image in listToClean:
+        imageToClean = Image.open(image)
+
+def run():
+    iList = loadImages()
+    cleanImages(iList)
 
 # To run the application
-# if __name__ == "__main__":
-#
+if __name__ == "__main__":
+    run()
